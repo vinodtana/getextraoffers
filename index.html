@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>carewellington</title>
+    <link rel="stylesheet" href="./css/newTab.css">
+    <script src="./js/newTab.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <script type="text/javascript">
+        (function (f, b) {
+            if (!b.__SV) {
+                var e, g, i, h; window.mixpanel = b; b._i = []; b.init = function (e, f, c) {
+                    function g(a, d) { var b = d.split("."); 2 == b.length && (a = a[b[0]], d = b[1]); a[d] = function () { a.push([d].concat(Array.prototype.slice.call(arguments, 0))) } } var a = b; "undefined" !== typeof c ? a = b[c] = [] : c = "mixpanel"; a.people = a.people || []; a.toString = function (a) { var d = "mixpanel"; "mixpanel" !== c && (d += "." + c); a || (d += " (stub)"); return d }; a.people.toString = function () { return a.toString(1) + ".people (stub)" }; i = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+                    for (h = 0; h < i.length; h++)g(a, i[h]); var j = "set set_once union unset remove delete".split(" "); a.get_group = function () { function b(c) { d[c] = function () { call2_args = arguments; call2 = [c].concat(Array.prototype.slice.call(call2_args, 0)); a.push([e, call2]) } } for (var d = {}, e = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)), c = 0; c < j.length; c++)b(j[c]); return d }; b._i.push([e, f, c])
+                }; b.__SV = 1.2; e = f.createElement("script"); e.type = "text/javascript"; e.async = !0; e.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ?
+                    MIXPANEL_CUSTOM_LIB_URL : "file:" === f.location.protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"; g = f.getElementsByTagName("script")[0]; g.parentNode.insertBefore(e, g)
+            }
+        })(document, window.mixpanel || []);
+
+
+        // Enabling the debug mode flag is useful during implementation,
+        // but it's recommended you remove it for production
+        mixpanel.init('e9bfaaf08b41220610b450e16dbd603a', { debug: true });
+        mixpanel.track('Page_on_loaded');
+
+
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .carousel-inner>.item>img,
+        .carousel-inner>.item>a>img {
+            width: 100%;
+            height: 400px;
+            margin: auto;
+            cursor: pointer;
+            object-fit: fill;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <img src="./img/BG-Pattern.png" alt="carewellington" class="background"> -->
+    <div class="main-container">
+        <div class="exten-content-full">
+            <div class="exten-content-top">
+                <div class="exten-content-top-left">
+                    <span class="carewellington-header-text">getExtraOffers <img src="./img/checkbox-circle-fill.svg" />
+                    </span>
+                </div>
+
+                <div class="exten-content-top-right">
+
+
+
+                </div>
+            </div>
+            <div class="exten-content-top-right-border">
+            </div>
+            <div class="page-content-sec">
+
+
+                <div class="offer-content">
+                    <div>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active" onclick="mysliderClick()">
+                                    <img src="./img/home_banner_4.jpeg" alt="Flower" width="460" height="345">
+                                </div>
+                                <div class="item ">
+                                    <img src="./img/banner_home1.jpeg" alt="Chania" width="460" height="345">
+                                </div>
+                                <div class="item">
+                                    <img src="./img/banner_home2.jpeg" alt="Chania" width="460" height="345">
+                                </div>
+                                <div class="item">
+                                    <img src="./img/home_banner_3.jpeg" alt="Flower" width="460" height="345">
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="offer-content1">
+                        <div class="get_images-sec1">
+                            <div>
+                                <h2>Top Cashback Deals</h2>
+                                <div onclick="mysliderClick1()"><img src="./img/image_1.png" /></div>
+                            </div>
+                            <div>
+                                <h2>Top Offer Deals</h2>
+                                <div onclick="mysliderClick1()"><img src="./img/image_2.png" /></div>
+                            </div>
+                            <div>
+                                <h2>Top Coupen Deals</h2>
+                                <div onclick="mysliderClick1()"><img src="./img/image_3.png" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="extension-footer-top">
+                    <div class="footer-top-left">
+                        <span>getextraoffers.com are powered by Infothms Technologies Private Limited.</span>
+
+                    </div>
+                    <div class="footer-top-right">
+                        <span>© 2024 getextraoffers.com All Rights Reserved</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>

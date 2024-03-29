@@ -1,0 +1,97 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  /* font-family: sans-serif; */
+  font-family: "Roboto";
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+}
+.exten-content-full {
+  padding: 0px 50px;
+  height: 100vh;
+}
+
+.exten-content-top {
+  height: 70px;
+  padding-top: 25px;
+}
+.carewellington-header-text img {
+  position: relative;
+  top: 4px;
+}
+.exten-content-top-right-border {
+  height: 2px;
+  opacity: 0.1;
+  background: #bc8031;
+  backdrop-filter: blur(2px);
+}
+
+.exten-con-left {
+  width: 50%;
+}
+.exten-con-right {
+  width: 50%;
+}
+.extension-footer-top {
+  display: flex;
+  /* height: 100px; */
+  padding-top: 30px;
+  justify-content: space-between;
+  background: #fbf8f3;
+  box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.13);
+  width: calc(100% + 100px);
+  margin-left: -50px;
+  padding: 20px 50px;
+}
+.extension-footer-top * {
+  color: var(--Shade-100, #000);
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+}
+.page-content-sec {
+  padding: 50px;
+  padding-bottom: 0px;
+}
+.offer-content1 {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.get_images-sec1 img {
+  border: 1px solid #e2e2e2;
+  width: 100%;
+  height: 700px;
+  margin: auto;
+  object-fit: fill;
+  cursor: pointer;
+}
+.get_images-sec1 h2 {
+  text-align: center;
+  color: rgb(255, 87, 51);
+  margin-top: 50px;
+}
+.get_images-sec1 > div {
+}
+@media (max-width: 600px) {
+}
