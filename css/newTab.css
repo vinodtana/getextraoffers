@@ -93,12 +93,17 @@ body {
 }
 .get_images-sec1 > div {
 }
+.exten-content-top-left {
+  /* text-align: center; */
+  color: #ff5733;
+}
 @media (max-width: 700px) {
   .exten-content-full {
     padding: 0px 0px;
   }
   .exten-content-top-left {
     text-align: center;
+    color: #ff5733;
   }
   .carewellington-header-text img {
     position: relative;
@@ -111,7 +116,8 @@ body {
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
     width: 100%;
-    height: auto !important;
+    /* height: auto !important; */
+    height: 180px !important;
     margin: auto;
     cursor: pointer;
     object-fit: contain !important;
@@ -140,6 +146,10 @@ body {
   .footer-top-right span {
     font-size: 14px;
     line-height: 23px;
+  }
+  .extension-footer-top {
+    width: 100% !important;
+    margin-left: 0px !important;
   }
   .carewellington-header-text {
     font-size: 20px;
