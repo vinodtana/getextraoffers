@@ -93,5 +93,55 @@ body {
 }
 .get_images-sec1 > div {
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
+  .exten-content-full {
+    padding: 0px 0px;
+  }
+  .exten-content-top-left {
+    text-align: center;
+  }
+  .carewellington-header-text img {
+    position: relative;
+    top: 0px;
+  }
+  .page-content-sec {
+    padding: 0px;
+    padding-bottom: 0px;
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 100%;
+    height: auto !important;
+    margin: auto;
+    cursor: pointer;
+    object-fit: contain !important;
+  }
+  .get_images-sec1 {
+    width: 95%;
+    margin: auto;
+  }
+  .get_images-sec1 img {
+    height: auto;
+    margin: auto;
+    object-fit: contain;
+    cursor: pointer;
+  }
+  .extension-footer-top {
+    display: block;
+    text-align: center;
+  }
+  .footer-top-left,
+  .footer-top-right {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .footer-top-left span,
+  .footer-top-right span {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .carewellington-header-text {
+    font-size: 20px;
+  }
 }
